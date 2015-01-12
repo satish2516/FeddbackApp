@@ -1,0 +1,492 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		220A57711A6383CB00D7128C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220A57701A6383CB00D7128C /* AppDelegate.swift */; };
+		220A57781A6383CB00D7128C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 220A57771A6383CB00D7128C /* Images.xcassets */; };
+		220A577B1A6383CB00D7128C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 220A57791A6383CB00D7128C /* LaunchScreen.xib */; };
+		220A57871A6383CB00D7128C /* FeddbackAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220A57861A6383CB00D7128C /* FeddbackAppTests.swift */; };
+		220A57921A63855A00D7128C /* FeedbackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220A57901A63855A00D7128C /* FeedbackViewController.swift */; };
+		220A57931A63855A00D7128C /* FeedbackViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 220A57911A63855A00D7128C /* FeedbackViewController.xib */; };
+		220A57971A63970100D7128C /* avg.png in Resources */ = {isa = PBXBuildFile; fileRef = 220A57941A63970100D7128C /* avg.png */; };
+		220A57981A63970100D7128C /* good.png in Resources */ = {isa = PBXBuildFile; fileRef = 220A57951A63970100D7128C /* good.png */; };
+		220A57991A63970100D7128C /* sad.png in Resources */ = {isa = PBXBuildFile; fileRef = 220A57961A63970100D7128C /* sad.png */; };
+		220A57B21A63C78E00D7128C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 220A57B11A63C78E00D7128C /* QuartzCore.framework */; };
+		2258981A1A63D5A700EF82DE /* BarChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225898181A63D5A700EF82DE /* BarChartViewController.swift */; };
+		2258981B1A63D5A700EF82DE /* BarChartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 225898191A63D5A700EF82DE /* BarChartViewController.xib */; };
+		225898231A63D7A200EF82DE /* JBBarChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2258981E1A63D7A200EF82DE /* JBBarChartView.m */; };
+		225898241A63D7A200EF82DE /* JBChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 225898201A63D7A200EF82DE /* JBChartView.m */; };
+		225898251A63D7A200EF82DE /* JBLineChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 225898221A63D7A200EF82DE /* JBLineChartView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		220A57811A6383CB00D7128C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 220A57631A6383CB00D7128C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 220A576A1A6383CB00D7128C;
+			remoteInfo = FeddbackApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		220A576B1A6383CB00D7128C /* FeddbackApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FeddbackApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		220A576F1A6383CB00D7128C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		220A57701A6383CB00D7128C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		220A57771A6383CB00D7128C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		220A577A1A6383CB00D7128C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		220A57801A6383CB00D7128C /* FeddbackAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FeddbackAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		220A57851A6383CB00D7128C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		220A57861A6383CB00D7128C /* FeddbackAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeddbackAppTests.swift; sourceTree = "<group>"; };
+		220A57901A63855A00D7128C /* FeedbackViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedbackViewController.swift; sourceTree = "<group>"; };
+		220A57911A63855A00D7128C /* FeedbackViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FeedbackViewController.xib; sourceTree = "<group>"; };
+		220A57941A63970100D7128C /* avg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = avg.png; sourceTree = "<group>"; };
+		220A57951A63970100D7128C /* good.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = good.png; sourceTree = "<group>"; };
+		220A57961A63970100D7128C /* sad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sad.png; sourceTree = "<group>"; };
+		220A57A11A63C37A00D7128C /* FeddbackApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FeddbackApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		220A57B11A63C78E00D7128C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		225898181A63D5A700EF82DE /* BarChartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarChartViewController.swift; sourceTree = "<group>"; };
+		225898191A63D5A700EF82DE /* BarChartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BarChartViewController.xib; sourceTree = "<group>"; };
+		2258981D1A63D7A200EF82DE /* JBBarChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBBarChartView.h; sourceTree = "<group>"; };
+		2258981E1A63D7A200EF82DE /* JBBarChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBBarChartView.m; sourceTree = "<group>"; };
+		2258981F1A63D7A200EF82DE /* JBChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBChartView.h; sourceTree = "<group>"; };
+		225898201A63D7A200EF82DE /* JBChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBChartView.m; sourceTree = "<group>"; };
+		225898211A63D7A200EF82DE /* JBLineChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBLineChartView.h; sourceTree = "<group>"; };
+		225898221A63D7A200EF82DE /* JBLineChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBLineChartView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		220A57681A6383CB00D7128C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				220A57B21A63C78E00D7128C /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		220A577D1A6383CB00D7128C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		220A57621A6383CB00D7128C = {
+			isa = PBXGroup;
+			children = (
+				220A57B11A63C78E00D7128C /* QuartzCore.framework */,
+				220A576D1A6383CB00D7128C /* FeddbackApp */,
+				220A57831A6383CB00D7128C /* FeddbackAppTests */,
+				220A576C1A6383CB00D7128C /* Products */,
+				220A57A11A63C37A00D7128C /* FeddbackApp-Bridging-Header.h */,
+			);
+			sourceTree = "<group>";
+		};
+		220A576C1A6383CB00D7128C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				220A576B1A6383CB00D7128C /* FeddbackApp.app */,
+				220A57801A6383CB00D7128C /* FeddbackAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		220A576D1A6383CB00D7128C /* FeddbackApp */ = {
+			isa = PBXGroup;
+			children = (
+				220A57701A6383CB00D7128C /* AppDelegate.swift */,
+				2258981C1A63D7A200EF82DE /* JBBarcharts */,
+				220A57771A6383CB00D7128C /* Images.xcassets */,
+				220A57791A6383CB00D7128C /* LaunchScreen.xib */,
+				220A57941A63970100D7128C /* avg.png */,
+				220A57951A63970100D7128C /* good.png */,
+				220A57961A63970100D7128C /* sad.png */,
+				220A576E1A6383CB00D7128C /* Supporting Files */,
+				220A57901A63855A00D7128C /* FeedbackViewController.swift */,
+				220A57911A63855A00D7128C /* FeedbackViewController.xib */,
+				225898181A63D5A700EF82DE /* BarChartViewController.swift */,
+				225898191A63D5A700EF82DE /* BarChartViewController.xib */,
+			);
+			path = FeddbackApp;
+			sourceTree = "<group>";
+		};
+		220A576E1A6383CB00D7128C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				220A576F1A6383CB00D7128C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		220A57831A6383CB00D7128C /* FeddbackAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				220A57861A6383CB00D7128C /* FeddbackAppTests.swift */,
+				220A57841A6383CB00D7128C /* Supporting Files */,
+			);
+			path = FeddbackAppTests;
+			sourceTree = "<group>";
+		};
+		220A57841A6383CB00D7128C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				220A57851A6383CB00D7128C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2258981C1A63D7A200EF82DE /* JBBarcharts */ = {
+			isa = PBXGroup;
+			children = (
+				2258981D1A63D7A200EF82DE /* JBBarChartView.h */,
+				2258981E1A63D7A200EF82DE /* JBBarChartView.m */,
+				2258981F1A63D7A200EF82DE /* JBChartView.h */,
+				225898201A63D7A200EF82DE /* JBChartView.m */,
+				225898211A63D7A200EF82DE /* JBLineChartView.h */,
+				225898221A63D7A200EF82DE /* JBLineChartView.m */,
+			);
+			path = JBBarcharts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		220A576A1A6383CB00D7128C /* FeddbackApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 220A578A1A6383CB00D7128C /* Build configuration list for PBXNativeTarget "FeddbackApp" */;
+			buildPhases = (
+				220A57671A6383CB00D7128C /* Sources */,
+				220A57681A6383CB00D7128C /* Frameworks */,
+				220A57691A6383CB00D7128C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FeddbackApp;
+			productName = FeddbackApp;
+			productReference = 220A576B1A6383CB00D7128C /* FeddbackApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		220A577F1A6383CB00D7128C /* FeddbackAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 220A578D1A6383CB00D7128C /* Build configuration list for PBXNativeTarget "FeddbackAppTests" */;
+			buildPhases = (
+				220A577C1A6383CB00D7128C /* Sources */,
+				220A577D1A6383CB00D7128C /* Frameworks */,
+				220A577E1A6383CB00D7128C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				220A57821A6383CB00D7128C /* PBXTargetDependency */,
+			);
+			name = FeddbackAppTests;
+			productName = FeddbackAppTests;
+			productReference = 220A57801A6383CB00D7128C /* FeddbackAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		220A57631A6383CB00D7128C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = fidelity;
+				TargetAttributes = {
+					220A576A1A6383CB00D7128C = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					220A577F1A6383CB00D7128C = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 220A576A1A6383CB00D7128C;
+					};
+				};
+			};
+			buildConfigurationList = 220A57661A6383CB00D7128C /* Build configuration list for PBXProject "FeddbackApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				English,
+			);
+			mainGroup = 220A57621A6383CB00D7128C;
+			productRefGroup = 220A576C1A6383CB00D7128C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				220A576A1A6383CB00D7128C /* FeddbackApp */,
+				220A577F1A6383CB00D7128C /* FeddbackAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		220A57691A6383CB00D7128C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				220A57991A63970100D7128C /* sad.png in Resources */,
+				220A57971A63970100D7128C /* avg.png in Resources */,
+				2258981B1A63D5A700EF82DE /* BarChartViewController.xib in Resources */,
+				220A57981A63970100D7128C /* good.png in Resources */,
+				220A577B1A6383CB00D7128C /* LaunchScreen.xib in Resources */,
+				220A57931A63855A00D7128C /* FeedbackViewController.xib in Resources */,
+				220A57781A6383CB00D7128C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		220A577E1A6383CB00D7128C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		220A57671A6383CB00D7128C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				220A57711A6383CB00D7128C /* AppDelegate.swift in Sources */,
+				225898251A63D7A200EF82DE /* JBLineChartView.m in Sources */,
+				225898231A63D7A200EF82DE /* JBBarChartView.m in Sources */,
+				220A57921A63855A00D7128C /* FeedbackViewController.swift in Sources */,
+				225898241A63D7A200EF82DE /* JBChartView.m in Sources */,
+				2258981A1A63D5A700EF82DE /* BarChartViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		220A577C1A6383CB00D7128C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				220A57871A6383CB00D7128C /* FeddbackAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		220A57821A6383CB00D7128C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 220A576A1A6383CB00D7128C /* FeddbackApp */;
+			targetProxy = 220A57811A6383CB00D7128C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		220A57791A6383CB00D7128C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				220A577A1A6383CB00D7128C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		220A57881A6383CB00D7128C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		220A57891A6383CB00D7128C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		220A578B1A6383CB00D7128C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/sam/Downloads/CorePlot_1.4/Binaries/MacOS,
+				);
+				INFOPLIST_FILE = FeddbackApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/sam/Downloads/CorePlot_1.4/Binaries/iOS,
+					"$(PROJECT_DIR)/FeddbackApp",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FeddbackApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		220A578C1A6383CB00D7128C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/sam/Downloads/CorePlot_1.4/Binaries/MacOS,
+				);
+				INFOPLIST_FILE = FeddbackApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/sam/Downloads/CorePlot_1.4/Binaries/iOS,
+					"$(PROJECT_DIR)/FeddbackApp",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FeddbackApp-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		220A578E1A6383CB00D7128C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FeddbackAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FeddbackApp.app/FeddbackApp";
+			};
+			name = Debug;
+		};
+		220A578F1A6383CB00D7128C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FeddbackAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FeddbackApp.app/FeddbackApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		220A57661A6383CB00D7128C /* Build configuration list for PBXProject "FeddbackApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				220A57881A6383CB00D7128C /* Debug */,
+				220A57891A6383CB00D7128C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		220A578A1A6383CB00D7128C /* Build configuration list for PBXNativeTarget "FeddbackApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				220A578B1A6383CB00D7128C /* Debug */,
+				220A578C1A6383CB00D7128C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		220A578D1A6383CB00D7128C /* Build configuration list for PBXNativeTarget "FeddbackAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				220A578E1A6383CB00D7128C /* Debug */,
+				220A578F1A6383CB00D7128C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 220A57631A6383CB00D7128C /* Project object */;
+}
